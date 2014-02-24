@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+\$rootScope.\$watchCollection('${1:exp}',function(newVal, oldVal){
+  $0
+});
+]]></content>
+<tabTrigger>$swc$</tabTrigger>
+<scope>source.js</scope>
+<description>ngRootScopeWatchCollection</description>
+</snippet>

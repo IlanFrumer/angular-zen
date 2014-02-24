@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+\$timeout(function(){
+  $0
+},${1:1000},false);
+]]></content>
+<tabTrigger>ttdd</tabTrigger>
+<scope>source.js</scope>
+<description>ngTimeoutDelayNoDigest</description>
+</snippet>

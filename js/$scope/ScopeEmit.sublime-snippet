@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+\$scope.\$emit('${1:event}',function(event, args){
+  $0
+});
+]]></content>
+<tabTrigger>$se</tabTrigger>
+<scope>source.js</scope>
+<description>ngScopeEmit</description>
+</snippet>

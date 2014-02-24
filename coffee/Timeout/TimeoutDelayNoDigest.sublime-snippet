@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+\$timeout ()->
+  $0
+,${1:1000},false
+]]></content>
+<tabTrigger>ttdd</tabTrigger>
+<scope>source.coffee</scope>
+<description>ngTimeoutDelayNoDigest</description>
+</snippet>

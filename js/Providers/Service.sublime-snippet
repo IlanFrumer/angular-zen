@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+app.service('${1:myService}',[${2/([$\w]+)/'$1'/g}${2/.+/,/}function(${2}){
+  $0
+}]);
+]]></content>
+<tabTrigger>ps</tabTrigger>
+<scope>source.js</scope>
+<description>ngService</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+app.filter '${1:myFilter}',${2/.+/[/}${2/([$\w]+)/'$1'/g}${2/.+/,/} (${2})->
+  $0
+${2/.+/]/}
+]]></content>
+<tabTrigger>af</tabTrigger>
+<scope>source.coffee</scope>
+<description>ngFilter</description>
+</snippet>

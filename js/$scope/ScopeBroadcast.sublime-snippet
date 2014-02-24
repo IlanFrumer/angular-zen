@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+\$scope.\$broadcast('${1:event}',function(event, args){
+  $0
+});
+]]></content>
+<tabTrigger>$sb</tabTrigger>
+<scope>source.js</scope>
+<description>ngScopeBroadcast</description>
+</snippet>

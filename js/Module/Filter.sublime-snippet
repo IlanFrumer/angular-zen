@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+app.filter('${1:myFilter}',[${2/([$\w]+)/'$1'/g}${2/.+/,/}function(${2}){
+  $0
+}]);
+]]></content>
+<tabTrigger>af</tabTrigger>
+<scope>source.js</scope>
+<description>ngFilter</description>
+</snippet>

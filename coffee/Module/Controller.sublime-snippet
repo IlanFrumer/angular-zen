@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+app.controller '${1:myCtrl}',${2/.+/[/}${2/([$\w]+)/'$1'/g}${2/.+/,/} (${2:\$scope})->
+  $0
+${2/.+/]/}
+]]></content>
+<tabTrigger>ac</tabTrigger>
+<scope>source.coffee</scope>
+<description>ngController</description>
+</snippet>

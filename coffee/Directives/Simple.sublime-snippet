@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+app.directive '${1:myDirective}' ,${2/.+/[/}${2/([$\w]+)/'$1'/g}${2/.+/,/} (${2})->
+
+  restrict: 'A',
+  link: (scope, element, attrs)->
+    $0
+${2/.+/]/}
+]]></content>
+<tabTrigger>ad</tabTrigger>
+<scope>source.coffee</scope>
+<description>ngDirective</description>
+</snippet>

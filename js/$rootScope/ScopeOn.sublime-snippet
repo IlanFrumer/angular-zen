@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+\$rootScope.\$on('${1:event}',function(event, args){
+  $0
+});
+]]></content>
+<tabTrigger>$so$</tabTrigger>
+<scope>source.js</scope>
+<description>ngRootScopeOn</description>
+</snippet>

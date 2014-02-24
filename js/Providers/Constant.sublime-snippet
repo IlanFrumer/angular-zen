@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+app.constant('${1:myConstant}',$2);
+]]></content>
+<tabTrigger>pc</tabTrigger>
+<scope>source.js</scope>
+<description>ngConstant</description>
+</snippet>

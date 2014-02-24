@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+\$rootScope.\$apply(function(){
+  $0
+});
+]]></content>
+<tabTrigger>$sa$</tabTrigger>
+<scope>source.js</scope>
+<description>ngRootScopeApply</description>
+</snippet>

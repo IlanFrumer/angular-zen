@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+\$scope.\$emit '${1:event}', (event, args)->
+  $0
+]]></content>
+<tabTrigger>$se</tabTrigger>
+<scope>source.coffee</scope>
+<description>ngScopeEmit</description>
+</snippet>

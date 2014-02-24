@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+app = angular.module('${1:myApp}', [$2])
+]]></content>
+<tabTrigger>aa</tabTrigger>
+<scope>source.coffee</scope>
+<description>ngModule</description>
+</snippet>

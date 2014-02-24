@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+\$scope.\$watch '${1:exp}', (newVal, oldVal)->
+  $0
+,true
+]]></content>
+<tabTrigger>$swd</tabTrigger>
+<scope>source.coffee</scope>
+<description>ngScopeWatchDeep</description>
+</snippet>

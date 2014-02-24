@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+\$rootScope.\$watch('${1:exp}',function(newVal, oldVal){
+  $0
+}, true);
+]]></content>
+<tabTrigger>$swd$</tabTrigger>
+<scope>source.js</scope>
+<description>ngRootScopeWatchDeep</description>
+</snippet>

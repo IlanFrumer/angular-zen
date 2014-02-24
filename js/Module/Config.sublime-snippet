@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+app.config([${1/([$\w]+)/'$1'/g}${1/.+/,/}function(${1}){
+  $0
+}]);
+]]></content>
+<tabTrigger>aco</tabTrigger>
+<scope>source.js</scope>
+<description>ngConfig</description>
+</snippet>

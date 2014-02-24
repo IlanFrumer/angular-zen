@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+app.factory '${1:myFactory}',${2/.+/[/}${2/([$\w]+)/'$1'/g}${2/.+/,/} (${2})->
+  $0
+${2/.+/]/}
+]]></content>
+<tabTrigger>pf</tabTrigger>
+<scope>source.coffee</scope>
+<description>ngFactory</description>
+</snippet>

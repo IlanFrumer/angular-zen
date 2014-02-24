@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+app.service '${1:myService}',${2/.+/[/}${2/([$\w]+)/'$1'/g}${2/.+/,/} (${2})->
+  $0
+${2/.+/]/}
+]]></content>
+<tabTrigger>ps</tabTrigger>
+<scope>source.coffee</scope>
+<description>ngService</description>
+</snippet>

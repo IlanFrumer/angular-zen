@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+\$scope.\$on '${1:event}', (event, args)->
+  $0
+]]></content>
+<tabTrigger>$so</tabTrigger>
+<scope>source.coffee</scope>
+<description>ngScopeOn</description>
+</snippet>

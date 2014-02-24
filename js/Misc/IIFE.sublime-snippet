@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+(function($1){
+  $0
+}(${1:window}));
+]]></content>
+<tabTrigger>ii</tabTrigger>
+<scope>source.js</scope>
+<description>Immediately Invoked Function Expression</description>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+app.provider '${1:myProvider}',${2/.+/[/}${2/([$\w]+)/'$1'/g}${2/.+/,/} (${2})->
+  
+  \$get: ${3/.+/[/}${3/([$\w]+)/'$1'/g}${3/.+/, /}(${3})->
+    $0
+  ${3/.+/]/}
+
+${2/.+/]/}
+]]></content>
+<tabTrigger>pp</tabTrigger>
+<scope>source.coffee</scope>
+<description>ngProvider</description>
+</snippet>

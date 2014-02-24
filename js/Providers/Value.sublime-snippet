@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+app.value('${1:myValue}',$2);
+]]></content>
+<tabTrigger>pv</tabTrigger>
+<scope>source.js</scope>
+<description>ngValue</description>
+</snippet>
