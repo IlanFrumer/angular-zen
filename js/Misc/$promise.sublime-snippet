@@ -1,9 +1,8 @@
 <snippet>
   <content><![CDATA[
-\$promise.
-then(function(${1:result}){
+\$promise.then(function(${1:result}) {
   ${2://handle success}
-}, function(${3:error}){
+},function(${3:error}){
   ${4://handle error}
 });
 ]]></content>
